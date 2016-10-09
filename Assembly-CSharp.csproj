@@ -54,6 +54,7 @@
      <Compile Include="Assets\Script\CameraFocus.cs" />
      <Compile Include="Assets\Script\ColliderDissappear.cs" />
      <Compile Include="Assets\Script\ColliderDissappearBagyo.cs" />
+     <Compile Include="Assets\Script\ColliderDissappearInggris.cs" />
      <Compile Include="Assets\Script\ColliderDissappearLondo.cs" />
      <Compile Include="Assets\Script\Controller1.cs" />
      <Compile Include="Assets\Script\Controller2.cs" />

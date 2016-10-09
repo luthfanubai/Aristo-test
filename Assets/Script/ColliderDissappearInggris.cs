@@ -9,7 +9,7 @@ using System.Reflection;
 //namespace collider{
 
 
-public class ColliderDissappearBagyo : MonoBehaviour {
+public class ColliderDissappearInggris : MonoBehaviour {
 
 	public GameObject gun;
 	public GameObject clue;
