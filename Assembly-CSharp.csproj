@@ -51,6 +51,7 @@
      <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
      <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
      <Compile Include="Assets\Script\ButtonController.cs" />
+     <Compile Include="Assets\Script\CameraFocus.cs" />
      <Compile Include="Assets\Script\ColliderDissappear.cs" />
      <Compile Include="Assets\Script\ColliderDissappearBagyo.cs" />
      <Compile Include="Assets\Script\ColliderDissappearLondo.cs" />

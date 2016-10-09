@@ -8,6 +8,7 @@ public class Senapan : MonoBehaviour {
 	public GameObject efekMusuh;
 	public GameObject inggris;
 	public GameObject pedang;
+	public GameObject gun;
 	// Use this for initialization
 	void Start () {
 	
@@ -44,9 +45,10 @@ public class Senapan : MonoBehaviour {
 		inggris.SetActive (false);
 		yield return new WaitForSeconds (2);
 		kapow.SetActive (false);
-		this.gameObject.SetActive (false);
 		yield return new WaitForSeconds (1);
 		pedang.SetActive (true);
+		//gun.SetActive (false);
+		Destroy(gameObject);
 
 	}
 }
