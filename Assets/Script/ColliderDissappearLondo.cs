@@ -13,6 +13,8 @@ public class ColliderDissappearLondo : MonoBehaviour {
 
 	public GameObject willBeSHOWN;
 	public GameObject willBeSHOWN2;
+	public GameObject willBeSHOWN3;
+	public GameObject willBeHIDDEN;
 	// Use this for initialization
 	void Start () {
 	
@@ -36,15 +38,20 @@ public class ColliderDissappearLondo : MonoBehaviour {
 	{
 		//yield return new WaitForSeconds (1);
 		//Console.Write ("destroy");
+		AudioSource audio = GetComponent<AudioSource>();
+		audio.Play ();
 		Destroy (col.gameObject);
+		Destroy (willBeHIDDEN);
 		willBeSHOWN.SetActive (true);
 
-		yield return new WaitForSeconds (1);
+		yield return new WaitForSeconds (2);
 		//Destroy (this.gameObject);
 
 
 		willBeSHOWN2.SetActive (true);
 		willBeSHOWN.SetActive (false);
+		willBeSHOWN3.SetActive (true);
+
 
 
 	}

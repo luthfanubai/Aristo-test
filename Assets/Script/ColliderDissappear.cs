@@ -12,10 +12,12 @@ using System.Reflection;
 public class ColliderDissappear : MonoBehaviour {
 
 	public GameObject willBeSHOWN;
+	public GameObject willBeHIDDEN;
 	// Use this for initialization
 	void Start () {
 	
 	}
+
 	
 	// Update is called once per frame
 	void Update () {
@@ -36,6 +38,9 @@ public class ColliderDissappear : MonoBehaviour {
 		//yield return new WaitForSeconds (1);
 		//Console.Write ("destroy");
 		Destroy (col.gameObject);
+		Destroy (willBeHIDDEN);
+		AudioSource audio = GetComponent<AudioSource>();
+		audio.Play ();
 		yield return new WaitForSeconds (1);
 
 

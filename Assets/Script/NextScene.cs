@@ -27,4 +27,10 @@ public class NextScene : MonoBehaviour {
 	{
 		SceneManager.LoadScene (sceneBuildIndex: 0);
 	}
+
+	public void PlaySound()
+	{
+		AudioSource audio = GetComponent<AudioSource>();
+		audio.Play();
+	}
 }

@@ -13,6 +13,7 @@ public class ColliderDissappearBagyo : MonoBehaviour {
 
 	public GameObject gun;
 	public GameObject clue;
+	public GameObject WillBeHIDDEN;
 
 
 	// Use this for initialization
@@ -39,11 +40,11 @@ public class ColliderDissappearBagyo : MonoBehaviour {
 		//yield return new WaitForSeconds (1);
 		//Console.Write ("destroy");
 		Destroy (col.gameObject);
-
+		Destroy (WillBeHIDDEN);
 
 		yield return new WaitForSeconds (1);
 		//Destroy (this.gameObject);
-		clue.SetActive(true);
+		//clue.SetActive(true);
 		gun.SetActive (true);
 
 
