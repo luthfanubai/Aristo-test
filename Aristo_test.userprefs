@@ -1,8 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\CueScirpt.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Drag.cs">
     <Files>
-      <File FileName="Assets\Script\CueScirpt.cs" Line="17" Column="20" />
+      <File FileName="Assets\Script\ColliderDissappearBagyo.cs" Line="44" Column="3" />
+      <File FileName="Assets\Script\CueScirpt.cs" Line="11" Column="3" />
+      <File FileName="Assets\Script\ColliderDissappearLondo.cs" Line="53" Column="33" />
+      <File FileName="Assets\Script\Senapan.cs" Line="59" Column="19" />
+      <File FileName="Assets\Script\SenapanJPN.cs" Line="55" Column="15" />
+      <File FileName="Assets\Script\Drag.cs" Line="52" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
